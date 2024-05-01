@@ -33,6 +33,7 @@ public class MasterPage {
 				System.getProperty("user.dir") + "\\repository\\locators.properties");
 		loc = new Properties();
 		loc.load(fis2);
+		System.out.println("hello");
 		
 		FileInputStream fis3 = new FileInputStream(
 				System.getProperty("user.dir") + "\\repository\\testData.properties");
